@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+
+void palindrome(char str[100], int i);
+
+int main() {
+	palindrome("racar", 0);
+	
+	return 0;
+}
+
+void palindrome(char str[100], int i) {
+	int len = strlen(str);
+	if (i <= len / 2) {
+		
+	}
+	if (str[i] != str[len - i]) {
+		printf("false\n");
+	} else {
+		
+	}
+	
+}
